@@ -86,7 +86,7 @@ public class MainFrame1 extends JFrame implements KeyListener {
 	private void victory() {
 		if (tar == 3) {
 			System.out.println("胜利");
-			JOptionPane.showMessageDialog(MainFrame1.this, "<html><body>胜利！<br/>然而...并没有什么惊喜...<br/>因为我还没想好要写啥！毒撵！</body></html>");
+			JOptionPane.showMessageDialog(MainFrame1.this, "<html><body>胜利！<br/>然而...并没有什么惊喜...<br/></body></html>");
 			setVisible(false);
 			new MainFrame1();
 		}
@@ -460,7 +460,7 @@ public class MainFrame1 extends JFrame implements KeyListener {
 		}
 		
 		if (key == 66){
-			JOptionPane.showMessageDialog(MainFrame1.this, "还想作弊？？");
+			JOptionPane.showMessageDialog(MainFrame1.this, "这是作弊按键，但是还没实现.");
 		}
 	}
 
